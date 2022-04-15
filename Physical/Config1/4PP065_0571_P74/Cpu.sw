@@ -8,6 +8,8 @@
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
     <Task Name="Program" Source="Program.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <Task Name="Program1" Source="Program1.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <Task Name="Program2" Source="Program2.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
   <NcDataObjects>
     <NcDataObject Name="acp10etxen" Source="acp10etxen.dob" Memory="UserROM" Language="Ett" />
@@ -20,6 +22,9 @@
     <NcDataObject Name="gAxis04a" Source="gAxis04obj.gAxis04a.dob" Memory="UserROM" Language="Apt" />
     <NcDataObject Name="gAxis04i" Source="gAxis04obj.gAxis04i.dob" Memory="UserROM" Language="Ax" />
   </NcDataObjects>
+  <VcDataObjects>
+    <VcDataObject Name="Visu" Source="Visu.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
+  </VcDataObjects>
   <Libraries>
     <LibraryObject Name="Acp10man" Source="Libraries.Acp10man.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="Acp10par" Source="Libraries.Acp10par.lby" Memory="UserROM" Language="Binary" Debugging="true" />

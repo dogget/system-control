@@ -1,0 +1,3 @@
+VAR
+	LED : ARRAY[0..3] OF BOOL;
+END_VAR

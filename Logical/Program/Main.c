@@ -8,11 +8,13 @@
 void _INIT ProgramInit(void)
 {
 	speed=400;
-	DRIVE.ENABLE=1;
+	DRIVE.ENABLE=0;
+
 }
 
 void _CYCLIC ProgramCyclic(void)
 {
+	DRIVE.ENABLE = ENABLED;
 	drive(&DRIVE);
 }
 

@@ -7,6 +7,9 @@
       <Parameter ID="Mode" Value="Manual" />
       <Parameter ID="InternetAddress" Value="10.0.1.10" />
       <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Visu" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="labBR" />
     <Parameter ID="TimerDeviceType" Value="EPLX2X" />
@@ -15,6 +18,7 @@
     <Parameter ID="Cyclic1Duration" Value="2000" />
     <Parameter ID="Cyclic1Tolerance" Value="0" />
     <Parameter ID="Cyclic1Output" Value="1" />
+    <Parameter ID="VcObjectName" Value="Visu" />
   </Module>
   <Module Name="8I64xxxxxxx.00x-1" Type="8I64xxxxxxx.00x-1" Version="2.1.2.0">
     <Connection Connector="X2X1" TargetModule="X20BT9100" TargetConnector="X2X1">

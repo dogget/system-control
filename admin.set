@@ -3,6 +3,6 @@
 <ProjectSettings xmlns="http://br-automation.co.at/AS/ProjectSettings">
   <ConfigurationManager ActiveConfigurationName="Config1" />
   <Deployment Value="ActiveCpu" />
-  <ExportProject ExportFilePath="C:\Users\admin\Documents\KVBO-07-21\Kanaeva\prak3.zip" />
+  <ExportProject ExportFilePath="C:\Users\admin\Documents\KVBO-07-21\Kanaeva\prak44.zip" />
   <Print Footer="%cPage: %p" Header="%lProject: %n%c%x" />
 </ProjectSettings>

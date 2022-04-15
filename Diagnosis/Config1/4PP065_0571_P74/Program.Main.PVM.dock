@@ -1,0 +1,4 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   speed                                      INT    3 "                                                           -1000"    0    3    1   10    1    0         

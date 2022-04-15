@@ -45,4 +45,9 @@ VAR_CONFIG
 	Cyclic#1.gAxis04_DiDoIf.iDriveReady AT %IX."8I64xxxxxxx.00x-1".ETAD_Input_Bool_02;
 	::Program:DRIVE.STATE AT %IW."8I64xxxxxxx.00x-1".ETAD_Input;
 	::Program:DRIVE.COM AT %QW."8I64xxxxxxx.00x-1".CMDD_Output;
+	::led1 AT %QX."X20DO9322".DigitalOutput02;
+	::led2 AT %QX."X20DO9322".DigitalOutput03;
+	::led3 AT %QX."X20DO9322".DigitalOutput04;
+	::led4 AT %QX."X20DO9322".DigitalOutput05;
+	::Program:DRIVE.real_speed AT %IW."8I64xxxxxxx.00x-1".RFRD_Input;
 END_VAR

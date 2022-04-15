@@ -12,5 +12,8 @@
     <Object Type="Package" Description="gAxis03obj">gAxis03obj</Object>
     <Object Type="Package" Description="gAxis04obj">gAxis04obj</Object>
     <Object Type="Program" Language="ANSIC">Program</Object>
+    <Object Type="Program" Language="ANSIC">Program1</Object>
+    <Object Type="DataObject" Language="Vc" Description="320x240 (QVGA)">Visu</Object>
+    <Object Type="Program" Language="ANSIC">Program2</Object>
   </Objects>
 </Package>

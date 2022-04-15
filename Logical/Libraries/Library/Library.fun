@@ -6,5 +6,6 @@
 	END_VAR
 	VAR_OUTPUT
 		COM : UINT;
+		real_speed : INT;
 	END_VAR
 END_FUNCTION_BLOCK
